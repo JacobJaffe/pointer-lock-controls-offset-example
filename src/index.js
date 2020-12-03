@@ -14,18 +14,18 @@ function App() {
   return (
     <Canvas
       // Remove this to see the unexpected behavior without setting the offsets.
-      // raycaster={{
-      //   computeOffsets: (_, { size: { width, height } }) => {
-      //     if (isLocked.current) {
-      //       return ({
-      //         offsetX: width / 2,
-      //         offsetY: height / 2
-      //       })
-      //     } else {
-      //       return null;
-      //     }
-      //   }
-      // }}
+      raycaster={{
+        computeOffsets: (_, { size: { width, height } }) => {
+          if (isLocked.current) {
+            return ({
+              offsetX: width / 2,
+              offsetY: height / 2
+            })
+          } else {
+            return null;
+          }
+        }
+      }}
     >
       <Camera />
       <MouseReticle />

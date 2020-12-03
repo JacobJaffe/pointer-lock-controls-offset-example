@@ -12,9 +12,9 @@ This is demod here by having the raycasted mouse location tracked with a `red ci
 
 ## Without Offsetting
 
-![Without Offsetting](readmeAssets/withoutOffsetting.gif)
+![Without Offsetting](readmeAssets/withoutOffsetting2.gif)
 
 ## With Offsetting
 
-![With Offsetting](readmeAssets/withOffsetting.gif)
+![With Offsetting](readmeAssets/withOffsetting2.gif)
 
