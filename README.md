@@ -7,3 +7,14 @@ Normally, when raycasting for pointer events, the raycast occurs from the offset
 However, when using a PointerLockControl, the offset should be disregarded, as the mouse position does _not_ change. This can cause issues unless the mouse is set to the middle of the canvas before entering the pointer lock.
 
 By setting the offset to be the middle of the canvas, the offset is ignored, and the raycasts operate as expected.
+
+This is demod here by having the raycasted mouse location tracked with a `red circle`, and the expected raycast location tracked with a `black reticle`.
+
+## Without Offsetting
+
+![Without Offsetting](readmeAssets/withoutOffsetting.gif)
+
+## With Offsetting
+
+![With Offsetting](readmeAssets/withOffsetting.gif)
+
