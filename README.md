@@ -8,7 +8,7 @@ However, when using a PointerLockControl, the offset should be disregarded, as t
 
 By setting the offset to be the middle of the canvas, the offset is ignored, and the raycasts operate as expected.
 
-This is demod here by having the raycasted mouse location tracked with a `red circle`, and the expected raycast location tracked with a `black reticle`.
+This is demo'd here by having the raycasted mouse location tracked with a `red circle`, and the expected raycast location tracked with a `black reticle`.
 
 ## Without Offsetting
 
